@@ -1,0 +1,46 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    /**
+     * Run the migrations.
+     */
+    public function up(): void
+    {
+        Schema::create('job_applications', function (Blueprint $table) {
+            $table->id();
+            $table->foreignId('company_id')->constrained('companies')->cascadeOnDelete();
+            $table->foreignId('contact_id')->nullable()->constrained('contacts')->nullOnDelete();
+            $table->string('job_title');
+            $table->string('job_url')->nullable();
+            $table->longText('description')->nullable();
+            $table->string('employment_type', 50)->default('full_time');
+            $table->string('location_type', 50)->default('remote');
+            $table->string('location')->nullable();
+            $table->decimal('salary_min', 12, 2)->nullable();
+            $table->decimal('salary_max', 12, 2)->nullable();
+            $table->decimal('salary_offered', 12, 2)->nullable();
+            $table->string('currency', 10)->default('USD');
+            $table->string('salary_period', 20)->default('yearly');
+            $table->string('status', 50)->default('applied');
+            $table->unsignedTinyInteger('priority_rating')->default(3);
+            $table->date('applied_date')->nullable();
+            $table->date('deadline_date')->nullable();
+            $table->date('decision_date')->nullable();
+            $table->longText('notes')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     */
+    public function down(): void
+    {
+        Schema::dropIfExists('job_applications');
+    }
+};

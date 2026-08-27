@@ -74,3 +74,17 @@ Within each application in an active interview stage (`screening`, `technical_in
   - `passed`: Successful round; moving to next round
   - `failed`: Did not pass round
   - `cancelled`: Rescheduled or cancelled
+
+---
+
+## 4. Visual Kanban Board (`/admin/kanban-board`)
+The application provides an interactive **Pipeline Kanban** page with:
+- **Full-Width Canvas**: Utilizes 100% of the screen width for seamless pipeline management.
+- **Stage Group Tabs**:
+  - `All 10 Stages`: Complete horizontal workflow.
+  - `Active Pipeline`: Focuses on Wishlist through Offer Received.
+  - `Interviews Only`: Focuses strictly on Screening, Technical, Behavioral, and Final Round.
+  - `Offers & Decisions`: Focuses on Offer Received, Accepted, Rejected, and Withdrawn.
+- **Interactive Navigation**: One-click smooth scroll buttons (`‹` / `›`) and styled custom scrollbars.
+- **Live Filtering**: Instant debounced search by job role or company name, company dropdown filter, and minimum priority filter (★).
+- **Drag-and-Drop / Quick Select**: HTML5 drag-and-drop or card dropdown to instantly update status in real time via Livewire.

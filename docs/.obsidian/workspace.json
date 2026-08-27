@@ -183,13 +183,13 @@
   },
   "active": "25b93b76ff979be8",
   "lastOpenFiles": [
-    "security.md",
     "01-System-Overview.md",
+    "changelog.md",
     "project-overview.canvas",
+    "security.md",
     "todo.md",
     "Untitled.canvas",
     "system-architecture.md",
-    "changelog.md",
     "04-Dashboard-and-Widgets.md",
     "03-Pipeline-Lifecycle.md",
     "02-Data-Dictionary-and-ERD.md"
