@@ -56,7 +56,7 @@ jobs:
           coverage: none
 
       - name: Audit Composer dependencies
-        run: composer audit
+        run: composer audit --locked
 
   test:
     name: Automated Tests (PHPUnit)
