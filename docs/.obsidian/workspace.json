@@ -155,6 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "2026-08-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,17 +182,18 @@
       "bases:Create new base": false
     }
   },
-  "active": "25b93b76ff979be8",
+  "active": "257696ffec7c7c51",
   "lastOpenFiles": [
-    "01-System-Overview.md",
+    "Untitled.canvas",
+    "2026-08-28.md",
     "changelog.md",
+    "04-Dashboard-and-Widgets.md",
+    "03-Pipeline-Lifecycle.md",
+    "02-Data-Dictionary-and-ERD.md",
+    "01-System-Overview.md",
     "project-overview.canvas",
     "security.md",
     "todo.md",
-    "Untitled.canvas",
-    "system-architecture.md",
-    "04-Dashboard-and-Widgets.md",
-    "03-Pipeline-Lifecycle.md",
-    "02-Data-Dictionary-and-ERD.md"
+    "system-architecture.md"
   ]
 }
