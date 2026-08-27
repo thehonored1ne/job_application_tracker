@@ -79,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "14179e3b12793ec7",
@@ -155,7 +156,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2026-08-28.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -182,10 +182,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "257696ffec7c7c51",
+  "active": "25b93b76ff979be8",
   "lastOpenFiles": [
-    "Untitled.canvas",
     "2026-08-28.md",
+    "Untitled.canvas",
     "changelog.md",
     "04-Dashboard-and-Widgets.md",
     "03-Pipeline-Lifecycle.md",
